@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* about_us css block */
+
+
+.about-us-services{
+    background-image: url('/img/about_us/bg/white-cloud.png');
+    min-height: 1550px;
+    padding-top: 150px;
+}
+.about-us{
+    min-height: 660px;
+}
+.nav-row{
+    margin: 0 22px;
+}
+.home{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9D9D9;
+}
+.home::before{
+    content: '';
+    background-image: url(../img/about_us/icon/home.svg);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-left: -25px;
+}
+.wrapper_about-us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.about-us__text{
+    width: 560px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7A7A7A;
+    margin-right: 20px;
+}
+.about-us__img-team{
+    width: 560px;
+    height: 430px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* services block css */
+
+.services{
+    min-height: 780px;
+}
+.services .promo-text{
+    width: 600px;
+}
+.services .title{
+    margin-bottom: 10px;
+}
+.services .why-block{
+    margin-bottom: 51px;
+}
+.services .item-text{
+    width: 367px;
+    height: 180px;
+}
+.services .item-text__style{
+    width: 298px;
+}
+.services .item-img{
+    top: 27%;
+    left:30%;
+}
+.services .cap{
+    width: 186px;
+    height: 128px;
+}

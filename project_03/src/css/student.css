@@ -1,0 +1,100 @@
+.header{
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.student{
+    min-height: 3000px;
+    padding-top: 150px;
+}
+.nav-row{
+    margin: 0 22px;
+}
+.home{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9D9D9;
+}
+.home::before{
+    content: '';
+    background-image: url(../img/about_us/icon/home.svg);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-left: -25px;
+}
+.student .promo-text{
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.student-list{
+    min-height: 800px;
+    width: 850px;
+    margin: 0 auto;
+}
+.student-item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    margin-bottom: 32px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 25px;
+}
+.student-item__img{
+    width: 246px;
+    height: 175px;
+    margin-right: 20px;
+}
+.student-item__text{
+    width: 552px;
+}
+.student-item__name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.student-item__name-student{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7A7A7A;
+}
+.student-item__name-univer{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7A7A7A;
+}
+.student-item__name-univer::before{
+    content: '';
+    background-image: url(../img/student/logo/cap-mini.svg);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-left: -25px;
+}
+.student-item__desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7A7A7A;
+}
+.btn-more{
+    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    border-radius: 25px;   
+    border: none; 
+    width: 240px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+}

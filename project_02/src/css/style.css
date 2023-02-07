@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url('../img/bg/bc_header.png');
+    background-repeat: no-repeat;
+    min-height: 900px;
+    background-size: 100%;
+    padding: 42px 200px;
+}
