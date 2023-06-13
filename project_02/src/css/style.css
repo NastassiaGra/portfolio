@@ -4,11 +4,12 @@
 .container{
     width: 1140px;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     background-image: url('../img/bg/bc_header.png');
     background-repeat: no-repeat;
-    min-height: 900px;
+    height: 100vh;
     background-size: 100%;
     width: 100%;
 }
@@ -23,7 +24,7 @@
     justify-content:space-between;
 }
 header .title{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 30px;
     color: #FFFFFF;
     padding-top: 42px;
@@ -33,11 +34,10 @@ nav{
     padding-top: 47px;
 }
 .menu_item a{
-    text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    letter-spacing: 1px;
+    text-decoration: none;
 }
 .nav-btn{
     background-color: #C9453B;
@@ -51,9 +51,8 @@ nav{
 .nav-btn a{
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    letter-spacing: 1px;
 }
 .header-title{
     font-weight: 700;
@@ -62,8 +61,8 @@ nav{
     color: #FFFFFF;
     width: 804px;
     margin-top: 160px;
-    letter-spacing: 2px;
     margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 .header-subtitle{
     font-weight: 300;
@@ -72,7 +71,6 @@ nav{
     color: #FFFFFF;
     opacity: 0.6;
     width: 458px;
-    letter-spacing: 1px;
 }
 .header-btn{
     background-color: #C9453B;
@@ -86,7 +84,70 @@ nav{
 .header-btn a{
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    letter-spacing: 1px;
 }
+
+/* location */
+
+.location{
+    height: 900px;
+    padding-top: 120px;
+}
+
+.main-title{
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-subtitle{
+    width: 735px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    opacity: 0.6;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-wrapper{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.location-card{
+    width: 360px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 3%;
+}
+.location-card img{
+    width: 360px;
+    height: 331px;
+}
+
+.location-text-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000; 
+    margin: 35px 0 10px;
+}
+.location-text-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* special offers */
+
